@@ -50,7 +50,7 @@ int main() {
     std::string firstLetters;
     int args;
     Result res;
-    std::cout << "Enter 1 for read from file or 2  for read from console:" << std::endl;
+    std::cout << "Enter 1 for read from file or 2  for read from console: " << std::endl;
     std::cin >> args;
     if (args == 1) {
         std::ifstream file("file.txt");
